@@ -67,7 +67,7 @@ def select_output_file():
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python3 vendor_lookup.py <path_to_pcap_file>")
+        print("Usage: python3 vendy_scan.py <path_to_pcap_file>")
     else:
         file_path = sys.argv[1]
         analyze_pcap(file_path)
